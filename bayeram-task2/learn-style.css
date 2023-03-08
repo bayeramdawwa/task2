@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(241, 176, 233);
+}
+.container{
+    background-color:rgb(249, 249, 249);
+     border: 1px solid rgb(36, 36, 36);
+     width: 750px;
+     margin: auto;
+     margin-top: 30px;
+    padding: 0;
+    box-shadow: 5px 5px 10px  rgb(116, 114, 113);
+     color: rgb(168, 157, 153);
+     display: flex;
+     justify-content: space-between;
+     border-radius: 5px ;
+     
+
+}
+.div-inputs{
+    width:40%;
+    margin:20px;
+   
+    
+}
+ input,label{
+    width: 100%;
+}
+.inputs {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid  rgb(134, 123, 120);;
+    background-color:rgb(249, 249, 249);
+    
+  margin-bottom: 10px;
+}
+ .submit{
+    background-color: rgb(77, 188, 155);
+    border-radius: 5px ;
+    border-color:rgb(249, 249, 249) ;
+    border-width: 1px;
+    padding: 5px;
+    color: rgb(249, 249, 249);
+    margin-top: 15px;
+}
+.div-info{
+    width: 60%;
+    background-color: rgb(77, 188, 155);
+   
+    padding: 20px;
+    padding-right:2px;
+    color: rgb(249, 249, 249) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family:Arial, Helvetica, sans-serif;
+
+    
+}
+.info-h{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+
+.info-bottom{
+    border: none;
+    border-radius: 10px 5% ;
+    color: rgb(134, 123, 120);
+    box-shadow: 2px 2px 5px  rgb(116, 114, 113);
+    background-color:rgb(249, 249, 249) ;
+}

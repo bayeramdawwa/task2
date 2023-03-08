@@ -1,0 +1,49 @@
+body{
+    background-color:rgb(41, 201, 46);
+}
+.formparent{
+    background-color:rgb(249, 249, 249);
+     border: 1px solid rgb(36, 36, 36);
+     width: 350px;
+     margin: auto;
+     margin-top: 30px;
+    padding: 10px 20px;
+    box-shadow: 5px 5px 10px  rgb(116, 114, 113);
+     color: rgb(134, 123, 120);
+     border-radius: 5px;
+}
+
+.contact-form .inputs{
+    width: 95%;
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid rgb(116, 114, 113);
+    border-radius: 10px;
+    
+    
+}
+ .contact-form .subimt{
+    background-color:rgb(41, 201, 46);
+    color:rgb(249, 249, 249);
+ 
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    height: 30px;
+ border-radius: 10px;
+ border: none;
+  
+}
+.contact-form .message{
+   height: 100px;
+   width: 95%;
+   padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(116, 114, 113);
+    
+}
+.desiner{
+ text-align: center;
+ font-size: smaller;   
+}
