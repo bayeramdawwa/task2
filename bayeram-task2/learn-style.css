@@ -64,10 +64,14 @@ body{
 }
 
 
-.info-bottom{
+.info-a{
     border: none;
-    border-radius: 10px 5% ;
+    border-radius: 10px 1px ;
     color: rgb(134, 123, 120);
     box-shadow: 2px 2px 5px  rgb(116, 114, 113);
     background-color:rgb(249, 249, 249) ;
+    text-decoration: none;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 15px;
 }
