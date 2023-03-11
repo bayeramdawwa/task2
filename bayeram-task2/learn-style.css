@@ -16,16 +16,22 @@ body{
      
 
 }
-.div-inputs{
+.container .div-form{
+    margin: 0;
+    padding: 0;
     width:40%;
+
+}
+.container .div-form .form-inputs{
+   
     margin:20px;
    
     
 }
- input,label{
+.container .div-form .form-inputs input,label{
     width: 100%;
 }
-.inputs {
+.container .div-form .form-inputs .inputs {
     border-top: none;
     border-left: none;
     border-right: none;
@@ -34,7 +40,7 @@ body{
     
   margin-bottom: 10px;
 }
- .submit{
+.container .div-form .form-inputs .submit{
     background-color: rgb(77, 188, 155);
     border-radius: 5px ;
     border-color:rgb(249, 249, 249) ;
@@ -43,7 +49,7 @@ body{
     color: rgb(249, 249, 249);
     margin-top: 15px;
 }
-.div-info{
+.container .div-info{
     width: 60%;
     background-color: rgb(77, 188, 155);
    
@@ -57,14 +63,14 @@ body{
 
     
 }
-.info-h{
+.container .div-info .info-h{
     color: black;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bolder;
 }
 
 
-.info-a{
+.container .div-info .info-a{
     border: none;
     border-radius: 10px 1px ;
     color: rgb(134, 123, 120);
